@@ -1,0 +1,282 @@
+body {
+    background-color: #fbfbfb
+}
+
+/* Navigation */
+
+.navbar-toggle {
+    border-color: lightgray;
+}
+
+.icon-bar {
+    background-color: gray;
+}
+
+.nav a {
+    font-size: 13px;
+    color: gray;
+}
+
+.nav li a:hover, a:active{
+    color: black;
+    background-color: transparent;
+}
+
+.navbar-brand {
+    color: gray;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+
+/* home */
+#home {
+    background: url(imgs/hero_background.png) no-repeat center center;
+    background-size: cover;
+    height: 640px;
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+    transition: ease-in 0.5s
+}
+
+.hero-content {
+    color: white;
+    width: 100%;
+    padding-top: 250px;
+}
+.hero-title {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bold;
+}
+.hero-btn {
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 5px 25px;
+    border: none;
+    transition: background-color 0.5s ease-out;
+}
+
+
+/* About Me */
+.about-heading {
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Avenir Next";
+}
+
+.about-heading h1 {
+    font-size: 50px;
+}
+
+.about-sentences {
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.about-s {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-s p {
+    font-family: "Avenir Next";
+    font-size: 20px;
+}
+
+.about-icons {
+    margin-top: 90px;
+}
+
+.icons {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+.icon-heading {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.icon-heading h1 {
+    font-family: "Avenir Next";
+}
+
+.icon-heading p {
+    text-align: center;
+    font-family: "Avenir Next";
+    font-size: 16px;
+}
+
+/* Skill */
+#skill {
+    background-color: #3D4047;
+}
+.skill-heading {
+    text-align: center;
+    margin-top: 70px;
+    font-family: "Avenir Next";
+}
+
+.skill-heading h1 {
+    color: #CCD1CA;
+    font-size: 50px;
+}
+
+.strength-section {
+    margin-top: 60px;
+}
+
+
+.skill-sect-heading h3 {
+    color: #fbfbfb;
+    font-family: "Avenir Next";
+    font-size: 30px;
+}
+
+.skill-quote {
+    padding-top: 15px;
+}
+
+.skill-quote p {
+    font-family: "Avenir Next";
+    color: white;
+    font-size: 20px;
+}
+
+.why-programming {
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border-left: solid #CCD1CA;
+}
+
+.why-programming p {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+    font-style: italic;
+}
+
+.skill-progress {
+    margin-top: 80px;
+    padding-bottom: 120px;
+}
+
+.skill-progress p {
+    color: white;
+    font-weight: bold;
+    font-family: "Avenir Next";
+}
+
+
+/* Portfolio */
+.my-portfolio {
+    background-color: white;
+}
+
+.portfolio-heading {
+    text-align: center;
+    font-family: "Avenir Next";
+}
+
+.portfolio-heading h1 {
+    color: black;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+
+#gray p {
+    padding-top: 50px;
+}
+
+.button {
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Avenir Next";
+    padding-bottom: 50px;
+    border-radius: 4px;
+}
+
+.button a {
+    border: solid black;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.button a:hover {
+    text-decoration: none;
+}
+
+
+/* Contact */
+
+#contact {
+    background-color: #3D4047;
+}
+
+.contact-heading {
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Avenir Next";
+    color: white;
+}
+
+.contact-heading h1 {
+    font-size: 50px;
+}
+
+.send-form {
+    margin-top: 50px;
+}
+
+.send-form h3 {
+    font-family: "Avenir Next";
+    text-align: center;
+}
+
+.form-horizontal {
+    text-align: center;
+    color: gray;
+}
+
+.list-inline {
+    text-align: center;
+    font-size: 25px;
+}
+
+.network-name {
+    font-family: "Avenir Next";
+    color: gray;
+}
+
+.network-name:hover {
+    color: white;
+
+}
+
+.success {
+    color: #ff9966;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+h2 {
+    color: rgb()
+}
